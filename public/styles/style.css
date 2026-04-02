@@ -74,6 +74,7 @@ a {
 
 .banner>.container>p:hover {
     transform: scale(1.05);
+    /* font-size: 45px; */
     transition: all ease-in-out 0.3s;
 }
 
@@ -110,19 +111,24 @@ span {
     justify-content: center;
     text-align: center;
     gap: 15px;
-    padding: 1%;
+    padding: 2%;
     border-radius: 25px;
 }
 
 .box:hover {
     transform: scale(1.05);
     transition: all ease-in-out 0.3s;
-    background-color: #ececec;
+    background-color: #f1f1f1;
 }
 
 .box>img {
     width: 100px;
     height: auto;
+}
+
+.box>img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
 }
 
 .box>h4 {
@@ -131,10 +137,10 @@ span {
 }
 
 .box>p {
-    color: rgb(34, 34, 34);
+    color: rgb(40, 41, 43);
     font-family: 'Aptos', 'Aptos Display', sans-serif;
     font-size: medium;
-  
+    font-weight: 500;
 }
 
 .footer {
